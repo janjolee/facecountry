@@ -172,8 +172,8 @@ object-fit: contain;
 }
 
 .try-again-btn {
-  width: 50%;
-  height: 5vw;
+  width: 35%;
+  height: 3vw;
   border-radius: 40px;
   border: solid 1.5px #f73737;
   background-color: #f73737;
@@ -187,4 +187,9 @@ object-fit: contain;
   line-height: 1.67;
   text-align: center;
   color: #ffffff;
+}
+
+.ad-banner {
+	width: 320px;
+	margin: 0 auto;
 }
