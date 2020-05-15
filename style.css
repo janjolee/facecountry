@@ -172,8 +172,8 @@ object-fit: contain;
 }
 
 .try-again-btn {
-  width: 35%;
-  height: 3vw;
+  width: 50%;
+  height: 6vw;
   border-radius: 40px;
   border: solid 1.5px #f73737;
   background-color: #f73737;
