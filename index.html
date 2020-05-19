@@ -41,7 +41,7 @@
 		</div>
 	</nav>
 	<section class="section">
-		<h1 class="title">나의 얼굴 국적테스트</h1>
+		<h1 class="title">인공지는이 보는 나의 얼굴 국적테스트</h1>
 		<h2 class="subtitle">나는 어느나라 사람처럼 보일까?</h2>
 	</section>
 
@@ -82,7 +82,7 @@
 <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 	<footer class="footer pt-5 container d-flex justify-content-center">
         <div>
-            <p> 어느인종 및 국가를 차별하거나 비하하는목적은 없다는것을 알려드립니다 
+            <p> 어느인종 및 국가를 차별하거나 비하하는 목적은 없다는것을 알려드립니다 
 			</p>
 			<p>(제작도움: youtube 조코딩 채널)
 			</p>
@@ -160,19 +160,19 @@
 			var resultMessege;
 			switch (prediction[0].className) {
 				case "korean":
-					resultMessege = "당신은 자랑스러운 한국인"
+					resultMessege = "당신은 잘생기고 이쁜 한국사람"
 					break;
 				case "EU":
-					resultMessege = "당신은 이쁘고 잘생긴 유럽인"
+					resultMessege = "당신은 젠틀하고 용감한 서양사람"
 					break;
 				case "japanese":
-					resultMessege = "당신은 유쾌한 일본인"
+					resultMessege = "당신은 귀엽고 날렵한 일본사람"
 					break;
 				case "chinese":
-					resultMessege = "당신은 사람이 많은 중국인"
+					resultMessege = "당신은 강하고 자신감이 넘치는 중국사람"
 					break;
 				default:
-					resultMessege = "알수없음"
+					resultMessege = "다른사진으로 다시 시도해주세요"
 			}
 			$('.result-message').html(resultMessege);
 			var barWidth;
